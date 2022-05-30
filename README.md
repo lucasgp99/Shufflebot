@@ -22,20 +22,23 @@ Para llevar a cabo su cometido, el robot dispondrá de dos compartimentos donde 
 <a name="HW"></a>
 ### Arquitectura HW
 <p align="center">
-<img src="Images/hardware.PNG" height="300">
+<img src="Images/hardware.png" height="300">
   
-  **Movimiento del vehículo**
+  **Mezcla de la baraja (2Motores DC + Controlador)**
+   Para mezclar la baraja conectaremos dos motores dc al controlador de motores 1 que se alimentarán a través de una fuente de alimentación externa, a continuación podemos ver al detalle las conexiones de los motores con el controlador y la conexión con los pines de la Raspberry.
   
-Se han conectado los dos motores de las ruedas al controlador L298 junto con la corriente de las 4 pilas de 1,5 Voltios, este controlador actúa de intermediario entre la Raspberry y los movimientos del vehículo. El controlador se ha conectado también a la Raspberry Pi. 
-
-  **Cinemática inversa del brazo**
+  <img src="Images/hardware.png" height="300">
   
-Los 3 motores utilizados para mover el brazo en el plano de 3 ejes, y el servomotor que controla la apertura de la pinza se han conectado a la placa i2c, esta facilita la comunicación entre la raspberry y los componentes. La placa i2c está conectada a 4 pilas de 1,5 Voltios y a la Raspberry Pi. 
-
-  **Reconocimiento de objetos**
+  La función de estos componentes es que los motores giren 2 rueditas y estas, situadas debajo de los dos montones de cartas, las empuje hacia dentro del robot creando un mismo montón.
   
-La cámara es alimentada por dos pilas de 1,5 Voltios y controlada directamente por la Raspberry.
-
+  Pines GPIO utilizados: 23,4,12(M1) y 13,19,26(M2), 6(Controlador)
+  
+  **Reparto de cartas (Motores paso a paso + Motor DC + Controlador) **
+  
+  **E/S de Audio**
+  
+  **E/S de video**
+  
 </p>
 
 <a name="Diseño3D"></a>
