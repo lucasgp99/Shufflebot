@@ -27,18 +27,40 @@ Para llevar a cabo su cometido, el robot dispondrá de dos compartimentos donde 
   **Mezcla de la baraja (2Motores DC + Controlador)**
    Para mezclar la baraja conectaremos dos motores dc al controlador de motores 1 que se alimentarán a través de una fuente de alimentación externa, a continuación podemos ver al detalle las conexiones de los motores con el controlador y la conexión con los pines de la Raspberry.
   
-  <img src="Images/hardware.png" height="300">
+<p align="center">
+<img src="Images/hardware_1.png" height="300">
   
   La función de estos componentes es que los motores giren 2 rueditas y estas, situadas debajo de los dos montones de cartas, las empuje hacia dentro del robot creando un mismo montón.
   
   Pines GPIO utilizados: 23,4,12(M1) y 13,19,26(M2), 6(Controlador)
   
   **Reparto de cartas (Motores paso a paso + Motor DC + Controlador) **
+  Mediante un sistema de elevación y rotación del cajón central haremos que las cartas se repartan a cada jugador. Concretamente utilizaremos un motor dc conectado a un controlador, dos motores,  paso a paso los cuales ya tiene su propio controlador, concretamente las conexiones són las siguientes.
+Motores Paso a Paso:
+    
+<p align="center">
+<img src="Images/hardware_2.png" height="300">
   
+Pines GPIO utilizados: 24,25,8,7;     17,27,22,4.
+Motor DC + controlador:
+
+<p align="center">
+<img src="Images/hardware_3.png" height="300">
+    
+Pines GPIO utilizados: 10,9,11 (M3), 18(controlador)
+    
   **E/S de Audio**
+  Nuestro robot en la fase final debería ser capaz de escuchar y entender ciertas órdenes y respondernos alguna cosa que indique que ha comprendido dichas órdenes. Para ello conectaremos un micro y un altavoz a la placa y a la raspberry, concretamente de la siguiente manera:
+Micro: Conectado por USB
   
+  <p align="center">
+  <img src="Images/hardware_4.png" height="300">
+
   **E/S de video**
-  
+    Cámara USB, utilizada en la parte de visión por computador del robot. Gracias a ella el robot será capaz de reconocer a las personas que se encuentran alrededor de la mesa. Estos datos se tendrán en cuenta posteriormente en la gestión de la partida.
+    
+<p align="center">
+<img src="Images/hardware_5.png" height="300">
 </p>
 
 <a name="Diseño3D"></a>
