@@ -1,5 +1,5 @@
 
-<img src="Images/MVP.jpg" height="400">
+![image](https://user-images.githubusercontent.com/47353331/170779556-566721d8-23e8-407d-8b62-fb93f027412a.png)
 
 ## Índice de contenidos
 * [¿Qué es Shufflebot?](#Shufflebot)
@@ -99,69 +99,12 @@ Engranaje grande con columna dentada: este será la base del cajón repartidor, 
 Engranaje mediano: este irá directamente conectado al motor paso a paso y será el que impulsa todo el sistema de rotación.
 
 ### Robot montado
+  
 <p align="center">
-<img src="images/image13.png" width="300" height="300">
-
-<img src="images/image14.png" width="300" height="300">
-
-<img src="images/image15.png" width="300" height="300">
-</p>
-
-### Pinza
-<p align="center">
-<img src="images/image26.jpg" height="300">
-</p>
-
-### Articulaciones del brazo
-<p align="center">
-<img src="images/image25.png" height="300">
-<img src="images/image27.png" height="300">
-</p>
-
-### Base del brazo
-<p align="center">
-<img src="images/image29.png" width="300" height="300">
-<img src="images/image30.png" width="300" height="300">
-</p>
-
-### Base de la carrocería
-<p align="center">
-<img src="images/image32.png" height="300">
-</p>
-
-### Soporte de la caja
-<p align="center">
-<img src="images/image34.png" height="300">
-</p>
-<p align="center">
-<img src="images/image35.png" width="300">
+<img src="images/imatge_montatge_1.jpg" height="300">
+<img src="images/MVP.jpg" height="300">
 </p>
   
-### Caja con corpantimentos
-<p align="center">
-<img src="images/image37.png" width="300" height="300">
-</p>
-  
-## Reconocimiento de objetos
-Se ha utilizado el lenguaje Python para realizar el reconocimiento e identificación de formas, y se ha importado la librería “opencv” para obtener imágenes de la cámara. Y la librería “imageai” que utiliza “tensorflow”, una librería orientada a construir y entrenar redes neuronales, para utilizar un modelo de reconocimiento de objetos (Yolo).
-
-<p align="center">
-<img src="images/image4.png" height="250">
-<img src="images/image5.png" height="250">
-</p>
-
-Tras unas adaptaciones se ha utilizado el modelo para reconocer objetos en una simulación en CoppeliaSim.
-
-<p align="center">
-<img src="images/image2.png" height="300">
-</p>
-
-Los datos de cada objeto se gestionan con Python como una lista de diccionarios.
-
-<p align="center">
-<img src="images/image24.png" height="200">
-</p>
-
 <a name="Funcionamientos"></a>
 ## Simulación
 
