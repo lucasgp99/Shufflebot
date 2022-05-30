@@ -66,8 +66,37 @@ Micro: Conectado por USB
 <a name="Diseño3D"></a>
 ## Diseño 3D
 
-El proyecto contiene archivos STL para formar la estructura del robot.
+A continuación listamos las piezas 3D necesarias para crear la estructura de nuestro robot:
 
+**Estructura inferior**
+
+<p align="center">
+<img src="Images/3D_1.png" height="300">
+  
+Esta pieza actuará como cajón donde meteremos todos los componentes hardware necesarios para que el robot funcione correctamente (raspberry, controladores de motores, amplificador, motor paso a paso, cableado…). También servirá como base ya que la estructura superior irá apoyada sobre este cajón.
+  
+**Estructura Superior**
+  
+<p align="center">
+<img src="Images/3D_2.png" height="300">
+  
+<p align="center">
+<img src="Images/3D_2.png" height="300">
+  
+ Esta pieza es la estructura principal del robot ya que aquí se colocaran los engranajes, motores+ruedas y será donde se mezclaran y se repartirán las cartas mediante el funcionamiento de todos los motores.
+    
+**Engranajes y repartidor**
+  
+<p align="center">
+<img src="Images/3D_4.png" height="300">
+  
+Aquí se pueden ver las piezas siguientes:
+  
+Cajón repartidor: será el cajón que subirá, bajará y rotará para así poder repartir las cartas correctamente y es donde caerán las cartas al mezclarlas. También tiene una estructura diseñada para poder acoplar nuestro servomotor.
+  
+Engranaje grande con columna dentada: este será la base del cajón repartidor, está diseñado para que pueda rotar y a la vez se le pueda montar el cajón para que suba y baje.
+  
+Engranaje mediano: este irá directamente conectado al motor paso a paso y será el que impulsa todo el sistema de rotación.
 
 ### Robot montado
 <p align="center">
