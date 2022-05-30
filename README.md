@@ -54,7 +54,7 @@ Pines GPIO utilizados: 10,9,11 (M3), 18(controlador)
 Micro: Conectado por USB
   
   <p align="center">
-  <img src="Images/hardware_4.png" height="300">
+  <img src="Images/hardware_4.jpg" height="300">
 
   **E/S de video**
     Cámara USB, utilizada en la parte de visión por computador del robot. Gracias a ella el robot será capaz de reconocer a las personas que se encuentran alrededor de la mesa. Estos datos se tendrán en cuenta posteriormente en la gestión de la partida.
