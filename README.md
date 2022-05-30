@@ -22,7 +22,7 @@ Para llevar a cabo su cometido, el robot dispondrá de dos compartimentos donde 
 <a name="HW"></a>
 ### Arquitectura HW
 <p align="center">
-<img src="images/componentes.PNG" height="300">
+<img src="Images/hardware.PNG" height="300">
   
   **Movimiento del vehículo**
   
