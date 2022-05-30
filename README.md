@@ -6,7 +6,7 @@
 * [Instalación de dependencias](#instalar)
 * [Arquitectura HW](#HW)
 * [Diseño de las piezas 3D](#Diseño3D)
-* [Funcionamiento](#Funcionamineto)
+* [Software](#Software)
 
 <a name="Shufflebot"></a>
 # Shufflebot
@@ -81,7 +81,7 @@ Esta pieza actuará como cajón donde meteremos todos los componentes hardware n
 <img src="Images/3D_2.png" height="300">
   
 <p align="center">
-<img src="Images/3D_2.png" height="300">
+<img src="Images/3D_3.png" height="300">
   
  Esta pieza es la estructura principal del robot ya que aquí se colocaran los engranajes, motores+ruedas y será donde se mezclaran y se repartirán las cartas mediante el funcionamiento de todos los motores.
     
@@ -101,42 +101,17 @@ Engranaje mediano: este irá directamente conectado al motor paso a paso y será
 ### Robot montado
   
 <p align="center">
-<img src="images/imatge_montatge_1.jpg" height="300">
-<img src="images/MVP.jpg" height="300">
+<img src="Images/imatge_montatge_1.jpg" height="300">
+<img src="Images/MVP.jpg" height="300">
 </p>
   
-<a name="Funcionamientos"></a>
-## Simulación
+<a name="Software"></a>
 
-Se ha simulado el comportamiento del robot con CoppeliaSim para recrear un espacio con una serie de diferentes objetos, que se interponen en el camino del robot. Éste, pudiendo detectarlos, recogerlos y almacenarlos en los compartimentos correspondientes, simula su correspondiente actuación. 
+## Software
 
-### Ruedas
-Se han utilizado las siguientes ruedas para la simulación.
-<p align="center">
-<img src="images/image16.png" height="300">
-<img src="images/image17.png" height="300">
-</p>
-
-### Ruedas incorporadas en el stl de la caja
-<p align="center">
-<img src="images/image18.png" width="300" height="300">
-</p>
-
-### Funcionamiento
-
-El robot gira hasta detectar un objeto que le interesa.
-
-<p align="center">
-<img src="images/image8.png" height="300">
-</p>
-
-Una vez detectado se acerca a él, lo recoge y lo almacena en el compartimento que le pertoque.
-
-<p align="center">
-<img src="images/image19.png" height="300">
-<img src="images/image3.png" height="300">
-</p>
+**Visión por computador**
+A través de una cámara el robot tiene la capacidad de reconocer a los jugadores de la partida. En cuanto a código, esto se consigue gracias a la utilización de la libreria opencv, y  los clasificadores pre-entrenados que esta nos ofrece. En nuestro caso hemos relacionado esta parte del robot con el proyecto de la asignatura de visión por computador. Adjuntamos el documento dónde explicamos al detalle como se estructura esta parte en nuestro github. El nombre de dicho archivo és: VC_article
 
 <p>
-  El siguiente enlace contiene el video promocional de SweeperBot (https://youtu.be/OWggp3zetLo)
+  El siguiente enlace contiene el video promocional de Shufflebot ()
 </p>
