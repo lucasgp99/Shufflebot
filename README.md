@@ -1,5 +1,5 @@
 
-![image](https://user-images.githubusercontent.com/47353331/170779556-566721d8-23e8-407d-8b62-fb93f027412a.png)
+<img src="Images/MVP.jpg" height="400">
 
 ## Índice de contenidos
 * [¿Qué es Shufflebot?](#Shufflebot)
