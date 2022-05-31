@@ -19,6 +19,10 @@ Para llevar a cabo su cometido, el robot dispondrá de dos compartimentos donde 
 - RPi.GPIO(Version 0.7.1) :pip install RPi.GPIO
 - opencv2(Version 4.0.0): pip install opencv-python (https://www.youtube.com/watch?v=QzVYnG-WaM4)
 - numpy(Version: 1.20.3): pip install numpy
+- speech_recognition(Version: 3.8.1): pip install SpeechRecognition
+- pyttsx3(Version: 2.90): pip install pyttsx3
+- deep_translator(Version: 1.8.3): pip install deep-translator
+ 
 
 <a name="HW"></a>
 ### Arquitectura HW
