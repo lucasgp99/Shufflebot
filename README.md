@@ -1,5 +1,5 @@
-
-![image](https://user-images.githubusercontent.com/47353331/170779556-566721d8-23e8-407d-8b62-fb93f027412a.png)
+<p align="center">
+<img src="Images/MVP.jpg" height="300">
 
 ## Índice de contenidos
 * [¿Qué es Shufflebot?](#Shufflebot)
@@ -7,6 +7,7 @@
 * [Arquitectura HW](#HW)
 * [Diseño de las piezas 3D](#Diseño3D)
 * [Software](#Software)
+* [Vídeo](#Video)
 
 <a name="Shufflebot"></a>
 # Shufflebot
@@ -73,7 +74,7 @@ A continuación listamos las piezas 3D necesarias para crear la estructura de nu
 <p align="center">
 <img src="Images/3D_1.png" height="300">
   
-Esta pieza actuará como cajón donde meteremos todos los componentes hardware necesarios para que el robot funcione correctamente (raspberry, controladores de motores, amplificador, motor paso a paso, cableado…). También servirá como base ya que la estructura superior irá apoyada sobre este cajón.
+Esta pieza actuará como cajón donde meteremos todos los componentes hardware necesarios para que el robot funcione correctamente (raspberry, controladores de motores, amplificador, motor paso a paso, cableado…). También servirá como base, ya que la estructura superior irá apoyada sobre este cajón.
   
 **Estructura Superior**
   
@@ -83,7 +84,7 @@ Esta pieza actuará como cajón donde meteremos todos los componentes hardware n
 <p align="center">
 <img src="Images/3D_3.png" height="300">
   
- Esta pieza es la estructura principal del robot ya que aquí se colocaran los engranajes, motores+ruedas y será donde se mezclaran y se repartirán las cartas mediante el funcionamiento de todos los motores.
+ Esta pieza es la estructura principal del robot, ya que aquí se colocaran los engranajes, motores+ruedas y será donde se mezclaran y se repartirán las cartas mediante el funcionamiento de todos los motores.
     
 **Engranajes y repartidor**
   
@@ -110,8 +111,15 @@ Engranaje mediano: este irá directamente conectado al motor paso a paso y será
 ## Software
 
 **Visión por computador**
-A través de una cámara el robot tiene la capacidad de reconocer a los jugadores de la partida. En cuanto a código, esto se consigue gracias a la utilización de la libreria opencv, y  los clasificadores pre-entrenados que esta nos ofrece. En nuestro caso hemos relacionado esta parte del robot con el proyecto de la asignatura de visión por computador. Adjuntamos el documento dónde explicamos al detalle como se estructura esta parte en nuestro github. El nombre de dicho archivo és: VC_article
 
+A través de una cámara, el robot tiene la capacidad de reconocer a los jugadores de la partida. En cuanto a código, esto se consigue gracias a la utilización de la librería opencv, y los clasificadores pre-entrenados que esta nos ofrece. En nuestro caso hemos relacionado esta parte del robot con el proyecto de la asignatura de visión por computador. Adjuntamos el documento dónde explicamos al detalle como se estructura esta parte en nuestro github. El nombre de dicho archivo es: VC_article.
+
+**Reconocimiento de voz**
+
+Hemos implementado en el robot ciertas funciones que permiten interactuar con él. Concretamente, se utiliza el reconocimiento de voz para gestionar los siguientes eventos: Inicio de partida: A través del comando iniciar partida, el robot empieza la gestión de dicha partida, comienza la rotación de reconocimiento y el barajado de cartas. A continuación las reparte a los jugadores deseados. En este punto se incluye el tratado de dos eventos. El primero, la gestión de robos, a través del comando Jugador X roba. El segundo consiste en nombrar algún jugador como tramposo. Si esto ocurre, el robot disparará todas las cartas disponibles al tramposo. Finalmente, a través del comando final de partida, el robot vuelve a las posiciones iniciales, necesarias para el inicio de un nuevo juego.
+
+<a name="Video"></a>
+## Vídeo 
 <p>
   El siguiente enlace contiene el video promocional de Shufflebot ()
 </p>
