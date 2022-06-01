@@ -125,5 +125,5 @@ Hemos implementado en el robot ciertas funciones que permiten interactuar con é
 <a name="Video"></a>
 ## Vídeo 
 <p>
-  El siguiente enlace contiene el video promocional de Shufflebot ()
+  El siguiente enlace contiene el video promocional de Shufflebot (https://youtu.be/2KH45j8_Q0A )
 </p>
